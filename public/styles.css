@@ -1,0 +1,342 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .grid-container{
+    background-color: black;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 20% 50% 30%;
+    margin-top:10px;
+    color:antiquewhite;
+}
+footer{
+    font-weight: bold;
+    margin-left: 40%;
+} */
+
+/* Reset some default browser styles */
+body, h1, p, a, button,label,input,textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+/* Styling for the navigation container */
+.grid-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Grid layout */
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo and site title */
+.grid div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.grid p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Navigation links */
+.navs {
+    display: flex;
+    gap: 20px;
+}
+
+.navs a {
+    font-size: 16px;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+.navs a:hover {
+    color: #0056b3;
+}
+
+/* Button styling */
+.navs button {
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navs button:hover {
+    background-color: #0056b3;
+}
+
+/* New blog link */
+.new-blog a {
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.new-blog a:hover {
+    background-color: #218838;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #444;
+}
+
+/* Ensuring the footer sticks to the bottom */
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+} */
+
+/* footer {
+    margin-top: auto;
+} */
+
+/* General Reset */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for About Us Section */
+.aboutdiv {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 28px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #444;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+} */
+
+/* Container for Blog Post */
+.detailsdiv {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 32px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Blog Body Styling */
+div > div {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Delete Link Styling */
+a.delete {
+    display: inline-block;
+    color: #ff4d4d;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid #ff4d4d;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a.delete:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #444;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.indexdiv {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 28px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Blog Title Link */
+a {
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+/* Blog Title Styling */
+h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Blog Snippet Styling */
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Message for No Blogs */
+.indexdiv p {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formcontainer {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Label Styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Fields */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Textarea for Blog Content */
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Submit Button */
+button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
